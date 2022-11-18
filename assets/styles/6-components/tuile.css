@@ -1,0 +1,42 @@
+/* Components : tuile */
+
+.tuile {
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    transition: box-shadow .3s ease;
+}
+
+.tuile:hover {
+    /* https://getcssscan.com/css-box-shadow-examples */
+    box-shadow: rgb(0 0 0 / 15%) 0px 10px 10px;
+}
+
+.tuile__link {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-base);
+}
+
+.tuile img {
+    transition: transform .3s ease;
+}
+
+.tuile:hover img {
+    transform: scale(1.02);
+}
+
+.tuile__detail {
+    align-items: flex-end;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.grid--hero .tuile:first-child .title--tertiary {
+    font-size: max(26px, 3.5vw);
+}
+
+.grid--hero .tuile:first-child .title--quaternary {
+    font-size: max(22px, 2.5vw);
+}

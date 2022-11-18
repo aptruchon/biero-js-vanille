@@ -1,0 +1,15 @@
+/* Element : select */
+
+
+select {
+    border-radius: 0;
+    
+    outline: none;
+    padding: var(--space-base);
+}
+
+select,
+option {
+    font-weight: 300;
+    letter-spacing: .05em;
+}

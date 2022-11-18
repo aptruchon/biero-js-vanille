@@ -1,0 +1,22 @@
+<ul>
+    {{#data}}
+        <article class="biere mt-small">
+            <div class="biere__infos">
+                <h2 class="pb-xsmall title--secondary">{{nom}}</h2>
+                <h3 class="pb-small">{{brasserie}}</h3>
+                <p class="pb-small">{{description}}</p>
+                <h3><small>Note: </small>{{note}}/5 <small>({{nombre}})</small></h3>
+                <div class="biere__commentaires">
+                    <h3>{{commentairesTitre}}</h3>
+                    <div class="mt-xxsmall">
+                        {{#commentaires}}
+                            <p>{{commentaire}}<small>{{courriel}}</small></p>
+                        {{/commentaires}}
+
+                    </div>
+                </div>
+            </div>
+            <img class="biere__image" src="{{image}}" alt="{{nom}}">
+        </article>
+    {{/data}}
+</ul>

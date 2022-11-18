@@ -1,0 +1,74 @@
+/* Objects : spacing */
+
+
+.mt-xxsmall {
+    margin-top: var(--space-base);
+}
+
+.mt-xsmall {
+    margin-top: var(--space-xsmall);
+}
+
+.mt-small {
+    margin-top: var(--space-small);
+}
+
+.mt-medium {
+    margin-top: var(--space-medium);
+}
+
+.mt-medium-large {
+    margin-top: var(--space-medium-large);
+}
+
+
+.pt-xsmall {
+    padding-top: var(--space-xsmall);
+}
+
+.pt-small {
+    padding-top: var(--space-small);
+}
+
+.pt-medium {
+    padding-top: var(--space-medium);
+}
+
+
+.pb-xsmall {
+    padding-bottom: var(--space-xsmall);
+}
+
+.pb-small {
+    padding-bottom: var(--space-small);
+}
+
+.pb-medium {
+    padding-bottom: var(--space-medium);
+}
+
+
+.pl-xsmall {
+    padding-left: var(--space-xsmall);
+}
+
+.pl-small {
+    padding-left: var(--space-small);
+}
+
+.pl-medium {
+    padding-left: var(--space-medium);
+}
+
+
+.py-xsmall {
+    padding: var(--space-xsmall) 0 var(--space-xsmall);
+}
+
+.py-small {
+    padding: var(--space-small) 0 var(--space-small);
+}
+
+.py-medium {
+    padding: var(--space-medium) 0 var(--space-medium);
+}

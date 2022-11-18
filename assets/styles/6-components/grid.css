@@ -1,0 +1,40 @@
+/* Components : grid */
+
+.grid {
+    display: grid;
+    
+}
+
+.grid--2 {
+    grid-gap: 2.5vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3 {
+    grid-gap: 2.5vw;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4 {
+    grid-gap: 2.25vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--6 {
+    grid-gap: 1.25vw;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid--hero {
+    grid-gap: 2.25vw;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--hero *:first-child {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.grid > * {
+    width: 100%;
+}

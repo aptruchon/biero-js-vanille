@@ -1,0 +1,39 @@
+/* Components : underline */
+
+
+.underline {
+    display: inline-block;
+    position: relative;
+}
+
+.underline::before {
+    content: '';
+    position: absolute;
+    transition: width .3s ease;
+    width: 0;
+    z-index: -1;
+}
+
+.underline--primary::before {
+    background-color: var(--color-secondary);
+    bottom: 0;
+    height: 35%;
+    right: -15px;
+}
+
+.underline--primary:hover::before {
+    left: 0;
+    width: calc(100% + 15px);
+}
+
+.underline--secondary::before {
+    background-color: var(--color-primary);
+    bottom: -6px;
+    height: 2px;
+    right: 0;
+}
+
+.underline--secondary:hover::before {
+    left: 0;
+    width: 100%;
+}

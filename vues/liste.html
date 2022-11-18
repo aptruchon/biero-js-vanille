@@ -1,0 +1,27 @@
+<div>
+    <select data-js-filtre>
+        <option value="0">Filtrer les options</option>
+        <option value="brasserie">Brasserie</option>
+        <option value="nom">Nom</option>
+        <option value="note_moyenne|DESC">Plus populaire</option>
+        <option value="note_moyenne|ASC">Moins populaire</option>
+    </select>
+
+    <ul class="grid grid--4">
+        {{#data}}
+            <li class="tuile">
+                <a class="tuile__link" href="biere/{{id_biere}}">
+                    <img src="{{image}}" alt="{{nom}}">
+                    {{nom}}
+                    <div class="tuile__detail">
+                        {{brasserie}}
+                        <div>
+                            {{note_moyenne}}
+                            <small>({{note_nombre}})</small>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {{/data}}
+    </ul>
+</div>

@@ -1,0 +1,19 @@
+<div>
+    <ul class="grid grid--hero">
+        {{#data}}
+            <li class="tuile">
+                <a  class="tuile__link" href="biere/{{id_biere}}">
+                    <img src="{{image}}" alt="{{nom}}">
+                    {{nom}}
+                    <div class="tuile__detail">
+                        <div>
+                            {{brasserie}}
+                            {{note_moyenne}}
+                            <small>({{note_nombre}})</small>
+                        </div>
+                    </div>
+                </a>
+            </li>
+        {{/data}}
+    </ul>
+</div>

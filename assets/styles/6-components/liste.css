@@ -1,0 +1,12 @@
+/* Components : liste */
+
+
+.liste {
+    display: flex;
+    flex-direction: column;
+}
+
+.liste > select {
+    align-self: flex-end;
+    margin-bottom: var(--space-small);
+}

@@ -1,0 +1,12 @@
+/* Element : link */
+
+
+a,
+a:hover {
+    color: inherit;
+    font-size: max(16px, 1.5vw);
+    font-weight: 300;
+    letter-spacing: .05em;
+    position: relative;
+    text-decoration: none;
+}

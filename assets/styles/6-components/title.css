@@ -1,0 +1,26 @@
+/* Components : title */
+
+
+.title,
+.title:hover,
+.title:focus {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.title--primary,
+.title--primary:hover {
+    font-size: max(30px, 5vw);
+}
+
+.title--secondary {
+    font-size: max(26px, 3vw);
+}
+
+.title--tertiary {
+    font-size: max(20px, 1.75vw);
+}
+
+.title--quaternary {
+    font-size: max(16px, 1.5vw);
+}

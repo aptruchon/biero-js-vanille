@@ -1,0 +1,15 @@
+/* Element : typography */
+
+
+h1,
+h2,
+h3,
+p {
+    letter-spacing: .025em;
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+    margin: 0;
+}

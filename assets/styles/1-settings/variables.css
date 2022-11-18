@@ -1,0 +1,19 @@
+/* Settings : variables */
+
+
+:root {
+    --color-primary: #161616;
+    --color-secondary: orange;
+    --color-black: #000;
+    --color-white: #fff;
+
+    --font-primary: sans-serif;
+
+    --space-base: 5px;
+    --space-xsmall: max(calc(var(--space-base) * 3), 1.5vw);
+    --space-small: max(calc(var(--space-base) * 6), 3vw);
+    --space-medium: max(calc(var(--space-base) * 12), 6vw);
+    --space-medium-large: max(calc(var(--space-base) * 18), 9vw);
+    --space-large: max(calc(var(--space-base) * 24), 12vw);
+    --space-xlarge: max(calc(var(--space-base) * 30), 15vw);
+}
